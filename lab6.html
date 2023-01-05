@@ -5,8 +5,141 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  
+  <title>VoteBox</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+  
+    table, th, td {
+      border: 1px solid rgb(253, 253, 253);
+      border-collapse: collapse;
+    }
+    
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  
+    background-image: url("https://images.pexels.com/photos/2559941/pexels-photo-2559941.jpeg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-size: 100% 100%;
+    color: #FFFFFF;
+    overflow-y: scroll;
+    height:150vh;
+
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: red;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.grid { 
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  grid-gap: 20px;
+  align-items: stretch;
+  }
+.grid img {
+  border: 1px solid #ccc;
+  box-shadow: 2px 2px 6px 0px  rgba(0,0,0,0.3);
+  max-width: 100%;
+}
+
+</style>
 </head>
 <body>
+
+    <pre><h1>                                               Voters</h1></pre>
+<div class="navbar">
+  
+  
+  <a href="#home">Home</a>
+  <a href="https://github.com/mrGope">My Github</a>
+  <div class="dropdown">
+    <button class="dropbtn">Social media
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="https://www.facebook.com/aditya.kumargope" target="_blank">Facebook</a>
+      <a href="https://www.instagram.com/_aditya_gope_/" target="_self">Instagram</a>
+      <a href="https://www.linkedin.com/in/aditya-gope-09b39320b/" target="_blank">linkedIn</a>
+    </div>
+  </div>
+ 
+</div>
+<br><br>
+<main class="grid">
+<br><br>
+  <img src="http://www.google.com/logos/doodles/2018/united-states-elections-2018-5184312390451200.4-2x.png" alt="Sample photo">
+  <img src="https://img.etimg.com/thumb/msid-68707247,width-300,imgsize-819396,,resizemode-4,quality-100/can-my-office-stop-me-from-voting.jpg" alt="Sample photo">
+  <img src="https://imageio.forbes.com/specials-images/dam/imageserve/1063184564/960x0.jpg?format=jpg&width=960" alt="Sample photo">
+  <img src="https://hips.hearstapps.com/hmg-prod/images/lead-image-vote-01-1659036587.jpg" alt="Sample photo">
+ 
+</main>
+
+<h2>Welcome To VOTERS SYSTEM AND SOLUTION</h2>
+   
     <h2>online voting form</h2>
     <form action="">
         <div>
@@ -126,5 +259,28 @@
             }
         }
     </script>
+  </form>  
+  <h2>GROUP MEMBERS</h2>
+<p>ONLINE VOTING SYSTEM.</p>
+
+
+<table style="width:100%">
+  <tr>
+    <th colspan="2">Name</th>
+    <th>class</th>
+  </tr>
+  <tr>
+    <td>Aditya kumar gope</td>
+    <td>Aniket</td>
+    <td>2mcab</td>
+  </tr>
+  <tr>
+    <td>Kartik</td>
+    <td>Aritra</td>
+    <td>2mcab</td>
+  </tr>
+</table>
+
+    
 </body>
 </html>
